@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://0hqs8i8b3a2u"]
+
+[ext_resource type="PackedScene" uid="uid://wnr1i3kqwi3f" path="res://Scenes/JessEdits/3dGame/gazebo.tscn" id="1_83xwt"]
+
+[node name="NewfarmPark" type="Node3D"]
+
+[node name="Gazebo" parent="." instance=ExtResource("1_83xwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00622708, 0, -0.0162452)
