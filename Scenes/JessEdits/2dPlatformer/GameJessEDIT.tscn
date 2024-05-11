@@ -5,10 +5,10 @@
 [ext_resource type="Texture2D" uid="uid://b1xxqs7wnv6b4" path="res://brackeys_platformer_assets/brackeys_platformer_assets/sprites/world_tileset.png" id="3_pvehu"]
 [ext_resource type="PackedScene" uid="uid://bw8c4mwsry5op" path="res://Scenes/player.tscn" id="4_desw8"]
 [ext_resource type="PackedScene" uid="uid://c780y6dpbf1j2" path="res://Scenes/kill_zone.tscn" id="5_fsw68"]
-[ext_resource type="PackedScene" uid="uid://12uhod5fnyoo" path="res://Scenes/JessEdits/SmallIcePlatformJessEdit.tscn" id="6_dajlu"]
-[ext_resource type="PackedScene" uid="uid://bjp78e0i61mdu" path="res://Scenes/JessEdits/IcePlatformJessEdit.tscn" id="7_l33fm"]
-[ext_resource type="PackedScene" uid="uid://txj7rhup8ux7" path="res://Scenes/JessEdits/GreenSlimeJessEdit.tscn" id="8_vogsm"]
-[ext_resource type="PackedScene" uid="uid://b1eewg3j4nhg7" path="res://Scenes/JessEdits/PurpleSlimeJessEdit.tscn" id="9_nf3c0"]
+[ext_resource type="PackedScene" uid="uid://12uhod5fnyoo" path="res://Scenes/JessEdits/2dPlatformer/SmallIcePlatformJessEdit.tscn" id="6_dajlu"]
+[ext_resource type="PackedScene" uid="uid://bjp78e0i61mdu" path="res://Scenes/JessEdits/2dPlatformer/IcePlatformJessEdit.tscn" id="7_l33fm"]
+[ext_resource type="PackedScene" uid="uid://txj7rhup8ux7" path="res://Scenes/JessEdits/2dPlatformer/GreenSlimeJessEdit.tscn" id="8_vogsm"]
+[ext_resource type="PackedScene" uid="uid://b1eewg3j4nhg7" path="res://Scenes/JessEdits/2dPlatformer/PurpleSlimeJessEdit.tscn" id="9_nf3c0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_02vwd"]
 texture = ExtResource("3_pvehu")

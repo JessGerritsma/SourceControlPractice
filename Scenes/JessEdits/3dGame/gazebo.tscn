@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://wnr1i3kqwi3f"]
+
+[ext_resource type="PackedScene" uid="uid://did4bfbwfl0r7" path="res://Assets/NewfarrmGazebo.blend" id="1_khjby"]
+
+[node name="Gazebo" type="Node3D"]
+
+[node name="NewfarrmGazebo" parent="." instance=ExtResource("1_khjby")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.56389, -1.48834, 7.86162)
