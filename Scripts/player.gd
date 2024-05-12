@@ -1,13 +1,20 @@
 extends CharacterBody2D
 
+@onready var collision_shape_2d = $CollisionShape2D
+
+
 
 const SPEED = 130.0
-const JUMP_VELOCITY = -300.0
+var JUMP_VELOCITY = -300.0
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
-
+@onready var sprite_2d = $Sprite2D
+@onready var scale_powerup = $"scale powerup"
 @onready var animated_sprite = $AnimatedSprite2D
+func _process(delta):
+	scale_powerup.set_process(true)
+
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -43,3 +50,4 @@ func _physics_process(delta):
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+
