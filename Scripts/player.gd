@@ -53,10 +53,6 @@ func _physics_process(delta):
 func scaleUp():
 	player.scale.x = 2
 	player.scale.y = 2
-	animated_sprite_2d.scale.x = 2
-	animated_sprite_2d.scale.y = 2
-	collision_shape_2d.scale.x = 2
-	collision_shape_2d.scale.y = 2
 	
 func halfSize():
 	player.scale.x = 0.5
