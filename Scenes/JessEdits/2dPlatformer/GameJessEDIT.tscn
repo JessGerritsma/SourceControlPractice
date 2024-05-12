@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://clsggv0xng8ae"]
+[gd_scene load_steps=18 format=3 uid="uid://clsggv0xng8ae"]
 
 [ext_resource type="Script" path="res://Scripts/game manager.gd" id="1_dnql1"]
 [ext_resource type="FontFile" uid="uid://c33c6tdo7kr54" path="res://brackeys_platformer_assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf" id="2_ncs3u"]
@@ -9,6 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://bjp78e0i61mdu" path="res://Scenes/JessEdits/2dPlatformer/IcePlatformJessEdit.tscn" id="7_l33fm"]
 [ext_resource type="PackedScene" uid="uid://txj7rhup8ux7" path="res://Scenes/JessEdits/2dPlatformer/GreenSlimeJessEdit.tscn" id="8_vogsm"]
 [ext_resource type="PackedScene" uid="uid://b1eewg3j4nhg7" path="res://Scenes/JessEdits/2dPlatformer/PurpleSlimeJessEdit.tscn" id="9_nf3c0"]
+[ext_resource type="PackedScene" uid="uid://bk0a4g0ibgb4a" path="res://Scenes/JessEdits/2dPlatformer/fruit.tscn" id="10_w6kuk"]
+[ext_resource type="PackedScene" uid="uid://c31c2dl3ebadk" path="res://Scenes/coin.tscn" id="11_58hdj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_02vwd"]
 texture = ExtResource("3_pvehu")
@@ -534,3 +536,12 @@ position = Vector2(976, 104)
 
 [node name="GreenSlime2" parent="." instance=ExtResource("8_vogsm")]
 position = Vector2(1086, 73)
+
+[node name="Fruit" parent="." instance=ExtResource("10_w6kuk")]
+position = Vector2(-295, 66)
+
+[node name="Coin" parent="." instance=ExtResource("11_58hdj")]
+position = Vector2(-270, 67)
+
+[node name="Coin2" parent="." instance=ExtResource("11_58hdj")]
+position = Vector2(-259, 67)
