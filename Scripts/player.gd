@@ -1,4 +1,5 @@
 extends CharacterBody2D
+@onready var player = $"."
 
 @onready var collision_shape_2d = $CollisionShape2D
 @onready var animated_sprite_2d = $AnimatedSprite2D
@@ -55,3 +56,9 @@ func scaleUp():
 	animated_sprite_2d.scale.y = 2
 	collision_shape_2d.scale.x = 2
 	collision_shape_2d.scale.y = 2
+	
+func halfSize():
+	player.scale.x = 0.5
+	player.scale.y = 0.5
+	#collision_shape_2d.scale.x = 0.5
+	#collision_shape_2d.scale.y = 0.5
