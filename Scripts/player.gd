@@ -1,4 +1,5 @@
 extends CharacterBody2D
+@onready var player = $"."
 
 @onready var player = $"."
 @onready var collision_shape_2d = $CollisionShape2D
@@ -52,3 +53,13 @@ func _physics_process(delta):
 func scaleUp():
 	player.scale.x = 2
 	player.scale.y = 2
+	animated_sprite_2d.scale.x = 2
+	animated_sprite_2d.scale.y = 2
+	collision_shape_2d.scale.x = 2
+	collision_shape_2d.scale.y = 2
+	
+func halfSize():
+	player.scale.x = 0.5
+	player.scale.y = 0.5
+	#collision_shape_2d.scale.x = 0.5
+	#collision_shape_2d.scale.y = 0.5

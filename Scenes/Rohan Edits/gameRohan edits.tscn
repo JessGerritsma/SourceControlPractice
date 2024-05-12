@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://b7as3yc4aretq" path="res://Scenes/platform.tscn" id="7_f4ity"]
 [ext_resource type="PackedScene" uid="uid://r4ee07aa6q38" path="res://Scenes/slime.tscn" id="8_xvv6e"]
 [ext_resource type="PackedScene" uid="uid://12uhod5fnyoo" path="res://Scenes/JessEdits/2dPlatformer/SmallIcePlatformJessEdit.tscn" id="9_sii17"]
-[ext_resource type="PackedScene" uid="uid://clxsa78fdyr24" path="res://Scenes/transporter.tscn" id="10_ah1jy"]
+[ext_resource type="PackedScene" uid="uid://ffv8etj7ik6t" path="res://Scenes/specialpickup.tscn" id="10_we5s3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_02vwd"]
 texture = ExtResource("3_0qy75")
@@ -720,5 +720,6 @@ text = "You made it!"
 [node name="Platform" parent="." instance=ExtResource("9_sii17")]
 position = Vector2(1805, -63)
 
-[node name="transporter" parent="." instance=ExtResource("10_ah1jy")]
-position = Vector2(-134, -55)
+[node name="Specialpickup" parent="." instance=ExtResource("10_we5s3")]
+position = Vector2(-104, -84)
+scale = Vector2(0.0407262, 0.0414492)
